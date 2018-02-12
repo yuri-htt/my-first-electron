@@ -1,0 +1,25 @@
+{
+  "name": "my-first-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "go electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuri-swift/my-first-electron.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "yuri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuri-swift/my-first-electron/issues"
+  },
+  "homepage": "https://github.com/yuri-swift/my-first-electron#readme",
+  "dependencies": {
+    "xel": "0.0.121"
+  }
+}
