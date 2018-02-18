@@ -16,11 +16,26 @@
 
     <!-- メインカラム開始 -->
     <div id="content">
+
       <img class= "loginLogo" border="0" src="../img/Logo.png" alt="Logo">
-      <x-input>
-        <x-icon name="receipt"></x-icon>
-        <x-label>Name</x-label>
-      </x-input>
+
+      <div class="centeringInput">
+        <x-input skin="flat" type="email" value="" required>
+          <x-icon name="email"></x-icon>
+          <x-label>E-mail</x-label>
+        </x-input>
+
+        <x-input skin="flat" type="password" minlength="4" maxlength="12" value="" required>
+          <x-icon name="password"></x-icon>
+          <x-label> Password</x-label>
+        </x-input>
+
+      </div>
+
+      <x-button id="login-button" class="loginBtn">
+        <x-label>Login</x-label>
+      </x-button>
+
     </div>
     <!-- メインカラム終了 -->
 

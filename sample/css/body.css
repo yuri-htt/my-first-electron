@@ -57,10 +57,21 @@ width: 100%;
 background-color: #00BE47; /* フッタの背景色 */
 }
 
+/* --- ログイン画面--- */
 .loginLogo {
   display: block;
   width: 128px;
   height: 128px;
   margin: 0 auto; /* センタリング */
+  padding-top: 60px;
   float:: center;
+}
+
+.centeringInput {
+  width: 150px;
+  margin: 40px auto;
+}
+.loginBtn {
+  width: 70px;
+  margin: 0 auto;
 }
